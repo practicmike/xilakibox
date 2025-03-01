@@ -1,0 +1,65 @@
+*"Crea una Progressive Web App (PWA) para el restaurante Xilaki'Box, donde los usuarios puedan ver el menú y realizar pedidos en línea. La orden se enviará al número de WhatsApp Business del restaurante.
+
+Requisitos principales:
+1️⃣ Menú interactivo con subcategorías:
+El menú debe mostrar los productos organizados con opciones de selección obligatoria o múltiple:
+
+Chilaquiles Box – Precio base: $140 MXN
+Incluye una salsa, una proteína y toppings.
+
+✅ Salsas (Obligatorio, mínimo 1 – máximo 1)
+
+Salsa suiza 🌶️
+Salsa verde 🌶️🌶️
+Salsa roja 🌶️🌶️
+Salsa chipotle 🌶️🌶️🌶️
+✅ Proteínas (Obligatorio, mínimo 1 – máximo 1)
+
+Pollo
+Bistec
+Chorizo
+Huevo
+Vegetariano (calabaza, pimiento, zanahoria)
+✅ Toppings (Selección múltiple)
+
+Cebolla
+Cilantro
+Queso tipo ranchero
+Crema
+✅ Extras (Costo adicional)
+
+Pollo + $20 MXN
+Bistec + $20 MXN
+Chorizo + $18 MXN
+Huevo + $13 MXN
+Vegetariano (calabaza, pimiento, zanahoria) + $15 MXN
+Salsa suiza 🌶️ + $15 MXN
+Salsa verde 🌶️🌶️ + $15 MXN
+Salsa roja 🌶️🌶️ + $15 MXN
+Salsa chipotle 🌶️🌶️🌶️ + $15 MXN
+Aguacate 🥑 + $15 MXN
+Queso Manchego 🧀 + $15 MXN
+Guacamole (100 gr) 🥑🍅🧅 + $25 MXN
+Aguas de sabor – Precio: $35 MXN
+¡Prueba nuestras deliciosas aguas de sabor del día!
+
+Agua de Jamaica
+Agua de limón con menta
+2️⃣ Carrito de compras y pedido por WhatsApp:
+Los usuarios pueden agregar múltiples productos antes de enviarlos.
+Mostrar un resumen del pedido con el precio total antes de confirmar.
+Generar un mensaje de WhatsApp Web con los detalles del pedido y abrir el chat del restaurante.
+3️⃣ Admin Panel (sin autenticación por ahora):
+Acceso sin credenciales, cualquier usuario puede gestionar el menú.
+Funciones:
+Agregar, editar y eliminar categorías (ej. Salsas, Proteínas, Toppings).
+Agregar, editar y eliminar productos dentro de cada categoría.
+Modificar nombres, descripciones, precios e imágenes.
+Los cambios en el panel deben actualizar el menú en tiempo real.
+Accesible desde una URL separada o un botón oculto en la app.
+4️⃣ Tecnología recomendada:
+Frontend: React + TailwindCSS para una interfaz moderna y responsiva.
+Backend: Firebase Firestore (base de datos en tiempo real) o una API en Node.js con Express y MongoDB.
+Estado global: Redux o Context API para manejar el carrito.
+PWA: Soporte offline y opción de instalación en móviles.
+Genera el código base para esta aplicación."*
